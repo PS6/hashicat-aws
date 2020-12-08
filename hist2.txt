@@ -1,0 +1,127 @@
+    1  terraform init
+    2  terraform plan
+    3  terraform plan | more
+    4  ssh rtd.orb.bt.com
+    5  ssh -p 22222 rtd.orb.bt.com
+    6  ssh -p 22222 packer@rtd.orb.bt.com
+    7  ssh -p 22222 ubuntu@rtd.orb.bt.com
+    8  vi test
+    9  ssh
+   10  ssh keygen
+   11  ssh-keygen
+   12  lo .ssh
+   13  ls .ss
+   14  set -o vi
+   15  ls .ssh
+   16  ls ../.ssh/
+   17  ls ../.ssh/id_rsa.pub 
+   18  cat ../.ssh/id_rsa.pub 
+   19  ssh alaxar@shell.xs4all.nl
+   20  scp ../.ssh/id_rsa.pub alaxar@shell.xs4all.nl:hckey
+   21  ssh alaxar@shell.xs4all.nl
+   22  ssh-agent
+   23  eval $(ssh-agent)
+   24  ssh-add
+   25  ssh alaxar@shell.xs4all.nl
+   26  ssh -p 22222 ubuntu@rtd.orb.bt.com
+   27  terraform init
+   28  terraform plan
+   29  terraform apply
+   30  echo $AWS_ACCESS_KEY_ID
+   31  echo $AWS_SECRET_ACCESS_KEY
+   32  lo
+   33  ls
+   34  cd ..
+   35  ls -la
+   36  cat .bashrc
+   37  scp alaxar@shell.xs4all.nl:.bash_aliases .
+   38  scp alaxar@shell.xs4all.nl:bash_aliases .
+   39  scp alaxar@shell.xs4all.nl:bash-aliases .
+   40  mv bash-aliases .bash_aliases
+   41  exit
+   42  l s-la
+   43  lo
+   44  ls -laR
+   45  echo $AWS_SECRET_ACCESS_KEY
+   46  echo $AWS_ACCESS_KEY_ID
+   47  history 
+   48  history > hist.txt
+   49  echo $AWS_ACCESS_KEY_ID >> hist.txt 
+   50  echo $AWS_SECRET_ACCESS_KEY >> hist.txt 
+   51  vi hist.txt 
+   52  echo $AWS_ACCESS_KEY_ID 
+   53  vi hist.txt 
+   54  scp hist.txt alaxar@shell.xs4all.nl:hc.txt
+   55  cd ..
+   56  ls
+   57  lo
+   58  uname -a
+   59  hostname
+   60  cd hashicat-aws/
+   61  lo
+   62  cd hashicat-aws/
+   63  terraform plan
+   64  terraform destroy
+   65  terraform plan
+   66  terraform apply
+   67  terraform destroy
+   68  ssh-keygen
+   69  ssh-keygen -?
+   70  ssh-keygen ed25519 -f 2ndkey
+   71  ssh-keygen -t ed25519 -f 2ndkey
+   72  lo ../.ssh
+   73  lo
+   74  ssh-add 2ndkey
+   75  eval $(ssh-agent)
+   76  ssh-add 2ndkey
+   77  ssh -p 22222 ubuntu@rtd.orb.bt.com
+   78  cd ..
+   79  scp -r hashicat-aws/ -P 22222 ubuntu@rtd.orb.bt.com:
+   80  scp -r hashicat-aws -P 22222 ubuntu@rtd.orb.bt.com:
+   81  scp
+   82  scp -r -P 22222 hashicat-aws ubuntu@rtd.orb.bt.com:
+   83  ssh -p 22222 ubuntu@rtd.orb.bt.com
+   84  cd hashicat-aws/
+   85  terraform plan
+   86  terraform apply
+   87  terraform init
+   88  terraform plan
+   89  terraform -var prefix=ps plan
+   90  terraform plan -var prefix=ps
+   91  grep prefix *
+   92  terraform plan
+   93  lo *.tfva
+   94  lo
+   95  cat terraform.tfvars 
+   96  terraform plan
+   97  terraform apply
+   98  terraform destroy
+   99  terraform apply
+  100  ssh -p 22222 ubuntu@rtd.orb.bt.com
+  101  eval $(ssh-agent)
+  102  ssh-add 2ndkey
+  103  ssh -p 22222 ubuntu@rtd.orb.bt.com
+  104  terraform plan
+  105  terraform apply
+  106  pwd
+  107  cd ..
+  108  mkdir vcs
+  109  cd vcs
+  110  git remote remove origin
+  111  git remote add origin https://github.com/PS6/hashicat-aws
+  112  git remote add origin https://github.com/PS6/hashicat-aws.git
+  113  git remote add origin https://github.com/PS6/hashicat-aws
+  114  cd ..
+  115  lo
+  116  cd hashicat-aws/
+  117  ls
+  118  cat .git
+  119  ls .git
+  120  git remote remove origin
+  121  git remote add origin https://github.com/PS6/hashicat-aws
+  122  git pull
+  123  git branch --set-upstream-to=origin/master master
+  124  git config --global core.editor "vi"
+  125  git config --global user.email "p@shah.pm"
+  126  history 
+  127  history >> hist2.txt
